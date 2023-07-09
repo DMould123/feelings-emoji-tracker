@@ -1,23 +1,12 @@
+# Server specific files and directories
+/server/.env
+
+# Exclude node_modules in the server folder
+/server/node_modules/
+
+# Root directory specific files and directories
 .DS_Store
-node_modules
+/node_modules/
+
+# Build output directory
 /dist
-
-
-# local env files
-.env.local
-.env.*.local
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
